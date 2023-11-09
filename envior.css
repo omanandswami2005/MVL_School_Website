@@ -1,0 +1,118 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    /* border: 1rem solid red; */
+    display: flex;
+    margin-top: .8rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    /* height: auto; */
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.navbarii {
+    display: flex;
+    margin-top: .8rem;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 83vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 7vw;
+}
+
+a {
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    text-decoration: none;
+    font-size: 3vw;
+    box-shadow: .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    font-weight: bold;
+    text-align: center;
+    transition-duration: .5s;
+    text-shadow: .5rem .5rem 1rem rgb(208, 255, 0);
+}
+
+.ho:hover,
+.co:hover,
+.con:hover,
+.om:hover,
+.a:hover {
+    box-shadow: -.5rem -.5rem 1rem rgba(0, 0, 0, 0.419), .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    text-shadow: .5rem .5rem 1rem rgb(255, 0, 255);
+    font-size: 3.5vw;
+    letter-spacing: .1rem;
+}
+
+.en {
+    background: linear-gradient(to bottom right, rgb(0, 255, 8) 25%, rgb(255, 0, 234) 50%, rgb(221, 255, 0));
+    color: white;
+    text-decoration: underline;
+    box-shadow: -.5rem -.5rem 1rem rgba(0, 0, 0, 0.419), .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    transform: scale(1.2);
+    font-size: 3.5vw;
+    font-weight: bolder;
+    text-shadow: .5rem .5rem 1rem rgb(255, 0, 255);
+    letter-spacing: .1rem;
+}
+
+[src="navlogo.png"] {
+    width: 15.5vw;
+    height: auto;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 13rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 2rem;
+    text-shadow: .3rem .2rem .5rem rgba(255, 0, 234, 0.72);
+}
+
+.images>img {
+    width: 32.7vw;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.yh>img {
+    margin-left: 20vw;
+    height: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+
+img {
+    margin-left: auto;
+    height: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+p {
+    border: .5rem inset blue;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 2rem;
+    font-size: 4.5vw;
+}

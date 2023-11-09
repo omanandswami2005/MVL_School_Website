@@ -1,0 +1,243 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('front side.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 97vw 50vw;
+    width: 98.7vw;
+    height: 49vw;
+}
+
+.navbar {
+    /* border: 1rem solid red; */
+    display: flex;
+    margin-top: .8rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a {
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    text-decoration: none;
+    font-size: 2vw;
+    box-shadow: .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    font-weight: bold;
+    transition-duration: .5s;
+    text-align: center;
+    text-shadow: .5rem .5rem 1rem rgb(208, 255, 0);
+}
+
+.con:hover,
+.co:hover,
+.om:hover,
+.a:hover {
+    box-shadow: -.5rem -.5rem 1rem rgba(0, 0, 0, 0.419), .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    text-shadow: .5rem .5rem 1rem rgb(68, 0, 255);
+    font-size: 2.4vw;
+    color: white;
+    background-color: rgba(255, 0, 183, 0.857);
+    letter-spacing: .1rem;
+}
+
+.ho {
+    background: linear-gradient(to bottom right, rgb(0, 255, 8) 25%, rgb(255, 0, 234) 50%, rgb(221, 255, 0));
+    color: white;
+    text-decoration: underline;
+    box-shadow: -.5rem -.5rem 1rem rgba(0, 0, 0, 0.419), .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    transform: scale(1.3);
+    font-size: 2vw;
+    font-weight: bolder;
+    text-shadow: .5rem .5rem 1rem rgb(255, 0, 255);
+    letter-spacing: .1rem;
+}
+
+[src="navlogo.png"] {
+    width: 11.5vw;
+    height: auto;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 13rem;
+}
+
+[src="mainlogo.png"] {
+    width: 11.5vw;
+    height: auto;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 8rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 5.3vw;
+    line-height: 10vw;
+    margin-bottom: 4rem;
+    color: rgb(251, 255, 0);
+    text-shadow: .5rem .7rem 2rem rgb(255, 0, 0);
+    text-align: center;
+}
+
+#maha {
+    text-decoration: underline;
+}
+
+.karm {
+    font-family: 'Yatra One', cursive;
+    text-align: center;
+    word-spacing: 2rem;
+    font-size: 5vw;
+    border: .4rem solid rgb(64, 255, 0);
+    border-radius: 5rem;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    margin-bottom: 3vw;
+    transition-duration: 5s;
+    animation-name: karm;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes karm {
+    0% {
+        transform: scale(1);
+        font-size: 5vw;
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        font-size: 5vw;
+        transform: scale(1);
+    }
+}
+
+hr {
+    height: .7vh;
+}
+
+.education {
+    text-align: center;
+    font-size: 8vw;
+    text-shadow: .5rem .3rem .8rem rgb(43, 255, 0);
+    margin-bottom: 2rem;
+}
+
+.our {
+    text-align: center;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+    border-right: .5rem double rgb(0, 8, 255);
+    border-left: .5rem double rgb(0, 8, 255);
+    border-right-width: .7rem;
+    border-left-width: .7rem;
+    font-size: 5vw;
+    letter-spacing: .8rem;
+    font-weight: bold;
+    word-spacing: 5rem;
+    text-shadow: .5rem .3rem .8rem rgba(255, 247, 0, 0.549);
+}
+
+.high {
+    border: .5rem inset rgba(4, 0, 255, 0);
+    border-radius: 5rem;
+    text-align: center;
+    color: rgb(106, 247, 252);
+    background: linear-gradient(to bottom right, rgba(225, 0, 255, 0.837), rgba(255, 35, 35, 0.857));
+    margin: 8rem;
+    margin-top: 5rem;
+    font-size: 5vw;
+    word-spacing: 2rem;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.th {
+    display: inline;
+    text-decoration: underline;
+}
+
+.info {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    text-align: center;
+    line-height: 4vw;
+    text-shadow: .3rem .3rem .5rem rgb(221, 255, 0);
+    word-spacing: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6vw;
+}
+
+img {
+    width: 32.7vw;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+#hr {
+    text-align: center;
+    margin: 0 auto;
+    height: 1vh;
+    width: 30%;
+    margin-bottom: 10rem;
+    box-shadow: .5rem .5rem 1rem rgb(0, 0, 0);
+    background-color: #ff0000f2;
+}
+
+.tg {
+    text-align: center;
+}
+
+.hallo {
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    border-radius: 2rem;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    text-decoration: none;
+    font-size: 2.7vw;
+    box-shadow: .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    font-weight: bold;
+    text-shadow: .5rem .5rem 1rem rgb(255, 0, 0);
+}
+
+.hallo:hover {
+    box-shadow: -.5rem -.5rem 1rem rgba(0, 0, 0, 0.419), .7rem .7rem 1rem rgba(0, 0, 0, 0.419);
+    text-shadow: .5rem .5rem 1rem rgb(255, 0, 255);
+    letter-spacing: .5rem;
+}
+
+.name {
+    text-align: center;
+    font-size: 4vw;
+    text-shadow: .5rem .5rem 1rem rgb(55, 0, 255);
+    text-decoration: underline;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: .5rem outset rgba(51, 255, 0, 0.802);
+    border-radius: 10rem;
+    padding: 1rem;
+    margin: 5rem;
+}
