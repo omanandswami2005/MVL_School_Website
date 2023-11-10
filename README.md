@@ -1,4 +1,4 @@
-# 💖 MVL_School_Website
+# 💖MVL_School_Website
 ## Access Website Online Here - https://maharashtravidyalaylatur.netlify.app
 
 ## This is My (@omanandswami) School Website, From My First 3 developed Websites at the start of my Code Journey :)
